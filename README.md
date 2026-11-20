@@ -2,11 +2,19 @@
 
 A Python task manager that uses a queue and a stack, with the Claude API turning plain-English input into structured tasks.
 
-Features: priority queue, completion history with undo, priority escalation, duplicate cleanup, JSON saving, manual and AI input modes.
+## Features
 
-Setup:
-pip install anthropic
-Set ANTHROPIC_API_KEY to your key
+- Priority queue with completion history and undo
+- Priority escalation
+- Duplicate cleanup
+- JSON saving
+- Manual and AI input modes
 
-Run:
-python task_manager.py
+## Setup
+
+1. Install the library: `pip install anthropic`
+2. Set your API key as the environment variable `ANTHROPIC_API_KEY`
+
+## Run
+
+`python task_manager.py`
